@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FIRST WEBSIDE </title>
+	<link rel="stylesheet" type="text/css" href="dlealgold.css">
+</head>
+<body>
+	<div class="container">
+	<div class="navbar">
+	<div class="logo">
+	<img src="logo.png">
+</div>
+    <nav>
+		<ul>
+			<li><a href="">about</a></li>
+			<li><a href="">library</a></li>
+			<li><a href="">blog</a></li>
+			<li><a href="">contact</a></li>	
+		</ul>
+	</nav>
+	<div class="user">
+		<p>dleal gold company </p>
+		<img src="user.png">
+	</div>
+</div>
+<div class="sidebar">
+	<img src="search.png" class="seach-icon">
+	<div class="social-link">
+		<img src="fb.png">
+		<img src="pt.png">
+		<img src="tw.png">
+	</div>
+	<img src="info.png" class="info-icon">
+</div>
+<div class="msg-container">
+	<div id="slider">
+	<div class="msg-col">
+		<h1>DLEEL GOLD </h1>
+		<P> TheC programming language was originally developed by Dennis Ritchie of Bell Laboratories,
+and was designed to run on a PDP-11 with a UNIX operating system. Although it was originally
+intended to run under UNIX, there was a great interest in running it on the IBM PC and compatibles,
+and other systems. C is excellent for actually writing system level programs, and the
+entire Applix 1616/OS operating system is written in C (except for a few assembler routines).
+It is an excellent language for this environment because of the simplicity of expression, the
+compactness of the code, and the wide range of applicability. </P>
+<a href=""> lean more about us </a>
+	</div>
+		<div class="msg-col">
+		<h1>Introduction </h1>
+		<P> It is not a good "beginning" language because it is somewhat cryptic in nature. It allows the
+programmer a wide range of operations from high level down to a very low level approaching
+the level of assembly language. There seems to be no limit to the flexibility available. One
+experienced C programmer made the statement, "You can program anything in C", and the
+statement is well supported by my own experience with the language. Along with the resulting
+freedom however, you take on a great deal of responsibility. It is very easy to write a program
+that destroys itself due to the silly little errors that, say, a Pascal compiler will flag and call a
+fatal error. In C, you are very much on your own, as you will soon find.</P>
+<a href=""> lean more about us </a>
+	</div>
+		<div class="msg-col">
+		<h1>DLEEL GOLD </h1>
+		<P> Since C is not a beginners language, I will assume you are not a beginning programmer, and I
+will not attempt to bore you by defining a constant and a variable. You will be expected to
+know these basic concepts. You will, however, not be expected to know anything of the C
+programming language. I will begin with the highest level of C programming, including the
+usually intimidating concepts of pointers, structures, and dynamic allocation. To fully understand
+these concepts, it will take a good bit of time and work on your part, because they not
+particularly easy to grasp, but they are very powerful tools. Enough said about that, you</P>
+<a href=""> lean more about us </a>
+	</div>
+		<div class="msg-col">
+		<h1>DLEEL GOLD </h1>
+		<P> Programming in C is a tremendous asset in those areas where you may want to use Assembly
+Language, but would rather keep it a simple to write and easy to maintain program. It has been
+said that a program written in C will pay a premium of a 50 to 100% increase in runtime, because
+no language is as compact or fast as Assembly Language. However, the time saved in coding
+can be tremendous, making it the most desirable language for many programming chores. In
+addition, since most programs spend 90 percent of their operating time in only 10 percent or
+less of the code, it is possible to write a program in C, then rewrite a small portion of the code
+in Assembly Language and approach the execution speed of the same program if it were written
+entirely in Assembly Language.
+Approximately 75 percent of all new commercial programs introduced for the IBM PC have
+been written in C, and the percentage is probably growing. Apple Macintosh system software
+was formerly written in Pascal, but is now almost always written in C. The entire Applix 1616
+operating system is written in C, with some assembler routines.
+Since C was designed essentially by one person, and not by a committee, it is a very usable
+language but not too closely defined. There was no official standard for the C language, but the
+American National Standards Association (ANSI) has developed a standard for the language,
+so it will follow rigid rules. It is interesting to note, however, that even though it did not have
+a standard, the differences between implementations are usually small. This is probably due to
+the fact that the original unofficial definition was so well thought out and carefully planned that
+extensions to the language are not needed.</P>
+<a href=""> lean more about us </a>
+	</div>
+	</div>
+</div>
+<div class="controller">
+	<div id="line1"></div>
+	<div id="line2"></div>
+	<div id="line3"></div>
+	<div id="line4"></div>
+	<div id="active"></div>
+</div>
+</div>
+
+<script>
+	var slider = document.getElementById('slider');
+	var active = document.getElementById('active');
+	var line1 = document.getElementById('line1');
+	var line2 = document.getElementById('line2');
+	var line3 = document.getElementById('line3');
+	var line4 = document.getElementById('line4');
+
+	line1.onclick = function(){
+		slider.style.transform = 'translateX(0)';
+		active.style.top = ('0px')
+	} 
+
+	line2.onclick = function(){
+		slider.style.transform = 'translateX(-25%)';
+		active.style.top = ('80px')
+	} 
+
+	line3.onclick = function(){
+		slider.style.transform = 'translateX(-50%)';
+		active.style.top = ('160px')
+	} 
+	line4.onclick = function(){
+		slider.style.transform = 'translateX(-75%)';
+		active.style.top = ('240px')
+	} 
+</script>
+
+
+</body>
+</html>
